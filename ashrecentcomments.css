@@ -2,7 +2,7 @@
 ul.ashprincesskawaii_recent{list-style:none;margin:0;padding:0;} 
 .ashprincesskawaii_recent li{background:none !important;margin:0 0 6px !important;padding:2px  
 !important;display:block;clear:both;overflow:hidden;list-style:none; max-height: 100px;} 
-.ashprincesskawaii_recent li:hover{border: 1px solid #ddd;}
+.ashprincesskawaii_recent li:hover{border: 1px solid teal;}
 .ashprincesskawaii_recent a {text-decoration:none;}
 .avatarImage{padding:3px;background:#fefefe;-webkit-box-shadow:0 1px 1px #ccc;-moz-box-shadow:0 1px 1px #ccc;box-shadow:0 1px 1px 
 #ccc;float:left;margin:0 6px 0 0;position:relative;overflow:hidden;} 
