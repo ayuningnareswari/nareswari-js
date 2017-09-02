@@ -11,9 +11,9 @@ ul.ashprincesskawaii_recent{list-style:none;margin:0;padding:0;}
     border-top: 1px solid #333;
     -webkit-box-shadow: 0 2px 2px #090909;
     -moz-box-shadow: 0 2px 2px #090909;
-    box-shadow: 0 2px 2px #090909, 0px 1px 0px 0px #222;} 
+    box-shadow: 0 2px 2px #090909, 0px 1px 0px 0px #222;border-left: 4px solid #58FA58;border-left: 1px solid #111} 
 .ashprincesskawaii_recent a {text-decoration:none;}
-.avatarImage{padding:3px;border: 4px solid #555;
+.avatarImage{border: 2px solid #555;
     margin: 5px 7px 0 10px;
        background-image: -webkit-linear-gradient(top,#202020,#161616)!important;float:left;margin:0 6px 0 0;position:relative;overflow:hidden;    -webkit-box-shadow: 0 0 10px rgba(30, 30, 30, 1) inset, 0 2px 4px #000, 0 0 1px #9f9f9f;} 
 </style>
