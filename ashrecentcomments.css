@@ -1,13 +1,19 @@
 <style type="text/css" scoped> 
 ul.ashprincesskawaii_recent{list-style:none;margin:0;padding:0;} 
 .ashprincesskawaii_recent li{background:none !important;margin:0 0 6px !important;padding:2px  
-!important;display:block;clear:both;overflow:hidden;list-style:none; max-height: 100px;} 
+!important;display:block;clear:both;overflow:hidden;list-style:none; max-height: 100px;    position: relative;
+    background-color: #1a1a1a;
+    background-image: -webkit-linear-gradient(top,#1a1a1a,#161616);
+    background-image: -moz-linear-gradient(top,#1a1a1a,#161616);
+    background-image: -ms-linear-gradient(top,#1a1a1a,#161616);
+    background-image: -o-linear-gradient(top,#1a1a1a,#161616);
+    background-image: linear-gradient(top,#1a1a1a,#161616);
+    border-top: 1px solid #333;
+    -webkit-box-shadow: 0 2px 2px #090909;
+    -moz-box-shadow: 0 2px 2px #090909;
+    box-shadow: 0 2px 2px #090909, 0px 1px 0px 0px #222;} 
 .ashprincesskawaii_recent a {text-decoration:none;}
 .avatarImage{padding:3px;border: 4px solid #555;
     margin: 5px 7px 0 10px;
-    background: #111211;
-    border-radius: 100px;
-    transition: all 500ms ease-in-out;float:left;margin:0 6px 0 0;position:relative;overflow:hidden;} 
-.avatarImage:hover { -webkit-transform:rotate(360deg); -moz-transform:rotate(360deg); -o-transform:rotate(360deg); color:#161616!important; border:4px solid #CEED35; background-color:#CEED35; -moz-box-shadow:0 0 10px #CEED35,0 0 20px #CEED35,0 0 30px #CEED35,0 1px 3px #000!important; -webkit-box-shadow:0 0 40px #CEED35}
-.ashprincesskawaii_recent li span{margin-top:4px;color:#848484;display:block;font-size: 9px;line-height: 1.4;} 
+       background-image: -webkit-linear-gradient(top,#202020,#161616)!important;float:left;margin:0 6px 0 0;position:relative;overflow:hidden;    -webkit-box-shadow: 0 0 10px rgba(30, 30, 30, 1) inset, 0 2px 4px #000, 0 0 1px #9f9f9f;} 
 </style>
