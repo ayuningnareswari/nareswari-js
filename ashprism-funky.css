@@ -1,7 +1,7 @@
 /**
  * prism.js Funky theme
  * Based on “Polyfilling the gaps” talk slides http://lea.verou.me/polyfilling-the-gaps/
- * @author Lea Verou
+ * @editor Erna Ayuning Nareswari
  */
 
 code[class*="language-"],
@@ -40,8 +40,11 @@ pre[class*="language-"] {
 
 code[class*="language-"] {
 	background: black;
-	color: white;
+	color: #F2F2F2;
 	box-shadow: -.3em 0 0 .3em black, .3em 0 0 .3em black;
+	overflow-x: hidden;
+    margin: 4px 0 20px;
+    padding: 8px;
 }
 
 /* Inline code */
