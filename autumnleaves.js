@@ -1,4 +1,4 @@
-<script type="text/javascript">
+
 // <![CDATA[
 var speed=40; // lower number for faster
 var leaves=25; // number of leaves falling at a time
@@ -540,4 +540,4 @@ function mouse(e) {
   deeex=has_focus?Math.floor(-1.5+4*(x-sleft)/swide):0;
 }
 // ]]>
-</script>
+
