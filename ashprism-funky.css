@@ -21,7 +21,6 @@ pre[class*="language-"]
 	background:url(https://3.bp.blogspot.com/-t-xvLsNviBk/Wa2nUcCjvnI/AAAAAAAAFxY/cd6pm5m_fDY5cgkVl-HHSLy86eWDcaXLgCLcBGAs/s1600/ash.jpg)repeat;
 	border: 1px solid #151515; 
 	box-shadow: -3px 15px 12px rgba(0,0,0,.5),0 3px 16px rgba(0,0,0,.9)inset;  border-radius:5px;
-
 	-webkit-hyphens: none;
 	-moz-hyphens: none;
 	-ms-hyphens: none;
@@ -37,7 +36,7 @@ pre[class*="language-"] {
 }
 
 code[class*="language-"] {
-	background: black;
+	background: transparent;
 	font-size:11px;
 	color: #F2F2F2;
 	overflow-x: hidden;
