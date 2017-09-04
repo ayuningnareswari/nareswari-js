@@ -5,7 +5,8 @@
  */
 
 code[class*="language-"],
-pre[class*="language-"] {
+pre[class*="language-"]
+{
 	width:90%;
 	font-family: special elite, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 	text-align: left;
@@ -14,7 +15,6 @@ pre[class*="language-"] {
 	word-break: normal;
 	word-wrap: normal;
 	line-height: 1.5;
-    background:url(https://3.bp.blogspot.com/-t-xvLsNviBk/Wa2nUcCjvnI/AAAAAAAAFxY/cd6pm5m_fDY5cgkVl-HHSLy86eWDcaXLgCLcBGAs/s1600/ash.jpg)repeat;  font-size:9px;  line-height:11px;  font-family:cambria;  letter-spacing:2px;  text-transform:lowercase;     border: 1px solid #151515;    box-shadow: -3px 15px 12px rgba(0,0,0,.5),0 3px 16px rgba(0,0,0,.9)inset; color:#fff;  text-align:center;  padding:5px 10px 5px 10px;  display:block;  border-radius:5px;  margin:24px 14px 7px 12px
 	-moz-tab-size: 4;
 	-o-tab-size: 4;
 	tab-size: 4;
@@ -30,7 +30,7 @@ pre[class*="language-"] {
 	padding: .4em .8em;
 	margin: .5em 0;
 	overflow: auto;
-	background:black;
+	background:url(https://3.bp.blogspot.com/-t-xvLsNviBk/Wa2nUcCjvnI/AAAAAAAAFxY/cd6pm5m_fDY5cgkVl-HHSLy86eWDcaXLgCLcBGAs/s1600/ash.jpg)repeat;  font-size:9px;  line-height:11px;  font-family:cambria;  letter-spacing:2px;  text-transform:lowercase;     border: 1px solid #151515;    box-shadow: -3px 15px 12px rgba(0,0,0,.5),0 3px 16px rgba(0,0,0,.9)inset; color:#fff;  text-align:center;  padding:5px 10px 5px 10px;  display:block;  border-radius:5px;  margin:24px 14px 7px 12px
 	background-size: 1em 1em;
 }
 
@@ -38,7 +38,6 @@ code[class*="language-"] {
 	background: black;
 	font-size:11px;
 	color: #F2F2F2;
-	box-shadow: -.3em 0 0 .3em black, .3em 0 0 .3em black;
 	overflow-x: hidden;
     margin: 4px 0 20px;
     padding: 8px;
