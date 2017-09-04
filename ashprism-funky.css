@@ -28,7 +28,7 @@ pre[class*="language-"]
 pre[class*="language-"] {
 	padding: .4em .8em;
 	margin: .5em 0;
-	overflow: hidden;
+	overflow: auto;
 	background-size: 1em 1em;
 	background:url(https://3.bp.blogspot.com/-t-xvLsNviBk/Wa2nUcCjvnI/AAAAAAAAFxY/cd6pm5m_fDY5cgkVl-HHSLy86eWDcaXLgCLcBGAs/s1600/ash.jpg)repeat;
 	border: 1px solid #151515; 
@@ -40,7 +40,6 @@ code[class*="language-"] {
 	color: #F2F2F2;
 	overflow-x: hidden;
     margin: 4px 0 20px;
-    padding: 10px;background-color: rgba(3,3,3,.5)
 }
 /* Inline code */
 :not(pre) > code[class*="language-"] {
