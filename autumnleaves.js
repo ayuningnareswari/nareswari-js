@@ -1,8 +1,8 @@
 <script type="text/javascript">
 // <![CDATA[
 var speed=40; // lower number for faster
-var leaves=20; // number of leaves falling at a time
-var untidy=4; // how often do you want the leaves tidied up (high number is less often)
+var leaves=25; // number of leaves falling at a time
+var untidy=5; // how often do you want the leaves tidied up (high number is less often)
 
 /****************************\
 *Falling Autumn Leaves Effect*
@@ -18,8 +18,8 @@ var yp=new Array();
 var am=new Array();
 var dy=new Array();
 var le=new Array();
-var swide=450;
-var shigh=350;
+var swide=480;
+var shigh=320;
 var sleft=0;
 var starty=0;
 var offset=0;
