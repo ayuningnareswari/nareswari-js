@@ -18,9 +18,7 @@ pre[class*="language-"]
 	-moz-tab-size: 4;
 	-o-tab-size: 4;
 	tab-size: 4;
-	background:url(https://3.bp.blogspot.com/-t-xvLsNviBk/Wa2nUcCjvnI/AAAAAAAAFxY/cd6pm5m_fDY5cgkVl-HHSLy86eWDcaXLgCLcBGAs/s1600/ash.jpg)repeat;
-	border: 1px solid #151515; 
-	box-shadow: -3px 15px 12px rgba(0,0,0,.5),0 3px 16px rgba(0,0,0,.9)inset;  border-radius:5px;
+	
 	-webkit-hyphens: none;
 	-moz-hyphens: none;
 	-ms-hyphens: none;
@@ -33,12 +31,15 @@ pre[class*="language-"] {
 	margin: .5em 0;
 	overflow: auto;
 	background-size: 1em 1em;
+	background:url(https://3.bp.blogspot.com/-t-xvLsNviBk/Wa2nUcCjvnI/AAAAAAAAFxY/cd6pm5m_fDY5cgkVl-HHSLy86eWDcaXLgCLcBGAs/s1600/ash.jpg)repeat;
+	border: 1px solid #151515; 
+	box-shadow: -3px 15px 12px rgba(0,0,0,.5),0 3px 16px rgba(0,0,0,.9)inset;  border-radius:5px;
 }
 
 code[class*="language-"] {
 	background: transparent;
 	font-size:11px;
-	color: #F2F2F2;
+	color: #F2F2F2F;
 	overflow-x: hidden;
     margin: 4px 0 20px;
     padding: 8px;
