@@ -67,7 +67,10 @@ code[class*="language-"] {
 .token.property,
 .token.tag,
 .token.boolean,
-.token.number,
+.token.number {
+	color: #FAAC58;
+}
+
 .token.constant,
 .token.symbol {
 	color: #0cf;
@@ -75,7 +78,7 @@ code[class*="language-"] {
 
 .token.selector,
 .token.attr-name {
-	color: #822FA9;
+	color: #E6E6E6;
 }
 
 .token.string,
