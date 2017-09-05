@@ -8,7 +8,7 @@ code[class*="language-"],
 pre[class*="language-"]
 {
 	width:90%;
-	font-family: special elite, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-family: special elite, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;font-size:12px;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
@@ -83,7 +83,10 @@ code[class*="language-"] {
 
 .token.operator,
 .token.entity,
-.token.url,
+.token.url {
+	color: #FAAC58;
+}
+
 .language-css .token.string,
 .toke.variable,
 .token.inserted {
