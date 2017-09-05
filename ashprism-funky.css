@@ -66,7 +66,10 @@ code[class*="language-"] {
 
 .token.property,
 .token.tag,
-.token.boolean,
+.token.boolean {
+	color: #2E64FE;
+}
+
 .token.number,
 .token.constant,
 .token.symbol {
@@ -74,7 +77,10 @@ code[class*="language-"] {
 }
 
 .token.selector,
-.token.attr-name,
+.token.attr-name {
+	color: #F5A9F2;
+}
+
 .token.string,
 .token.char,
 .token.builtin {
@@ -84,7 +90,7 @@ code[class*="language-"] {
 .token.operator,
 .token.entity,
 .token.url {
-	color: #FAAC58;
+	color: #9F81F7;
 }
 
 .language-css .token.string,
