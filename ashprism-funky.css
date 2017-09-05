@@ -28,11 +28,11 @@ pre[class*="language-"]
 pre[class*="language-"] {
 	padding: .4em .8em;
 	margin: .5em 0;
-	overflow: auto;
+	overflow: hidden;
 	background-size: 1em 1em;
 	background:url(https://3.bp.blogspot.com/-t-xvLsNviBk/Wa2nUcCjvnI/AAAAAAAAFxY/cd6pm5m_fDY5cgkVl-HHSLy86eWDcaXLgCLcBGAs/s1600/ash.jpg)repeat;
-	border: 1px solid #151515; 
-	box-shadow: -3px 15px 12px rgba(0,0,0,.5),0 3px 16px rgba(0,0,0,.9)inset;  border-radius:5px;
+	border: 2px inset #1B1B1B;
+	border-left: 5px solid #F7FE2E;
 }
 
 code[class*="language-"] {
