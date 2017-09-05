@@ -7,8 +7,9 @@
 code[class*="language-"],
 pre[class*="language-"]
 {
-	width:90%;
-	font-family: special elite, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	
+        width:auto;
+	font-family: Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
