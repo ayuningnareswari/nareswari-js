@@ -50,10 +50,12 @@ code[class*="language-"] {
 	white-space: normal;
 }
 
-.token.comment{
+.token.comment {
 	color: #F79F81;
 }
-
+.token.number {
+	color:rgb(230, 25, 60);
+}
 .token.prolog {
 	color: #6272a4;
 }
