@@ -31,9 +31,9 @@ pre[class*="language-"] {
 	margin: .5em 0;
 	overflow: hidden;
 	background-size: 1em 1em;
-	background:url(https://3.bp.blogspot.com/-t-xvLsNviBk/Wa2nUcCjvnI/AAAAAAAAFxY/cd6pm5m_fDY5cgkVl-HHSLy86eWDcaXLgCLcBGAs/s1600/ash.jpg)repeat;
+    background: rgb(34, 34, 34);
 	border: 2px inset #1B1B1B;
-	border-left: 5px solid #F7FE2E;
+	border-left: 4px solid #F7FE2E;
 }
 
 code[class*="language-"] {
@@ -95,7 +95,7 @@ code[class*="language-"] {
 }
 
 .token.selector {
-	color: #F3F781;
+	color: #D7DF01;
 }
 
 .token.attr-name {
