@@ -50,7 +50,10 @@ code[class*="language-"] {
 	white-space: normal;
 }
 
-.token.comment,
+.token.comment{
+	color: #F79F81;
+}
+
 .token.prolog {
 	color: #6272a4;
 }
@@ -68,7 +71,10 @@ code[class*="language-"] {
 	opacity: .7;
 }
 
-.token.property,
+.token.property {
+	color: #a6e22e;
+}
+
 .token.tag {
 	color: #ff79c6;
 }
@@ -78,18 +84,24 @@ code[class*="language-"] {
 	color: #FAAC58;
 }
 
-.token.constant,
+.token.constant {
+	color: #c678dd;
+}
+
 .token.symbol {
 	color: #0cf;
 }
 
-.token.selector,
+.token.selector {
+	color: #98c379;
+}
+
 .token.attr-name {
-	color: ##8be9fd;
+	color: #8be9fd;
 }
 
 .token.string {
-	color: #E6E6E6;
+	color: #e06c75;
 }
 
 .token.char,
