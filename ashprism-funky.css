@@ -102,10 +102,6 @@ code[class*="language-"] {
 	color: #8be9fd;
 }
 
-.token.string {
-	color: #e06c75;
-}
-
 .token.char,
 .token.builtin {
 	color:#f1fa8c;
