@@ -31,9 +31,8 @@ pre[class*="language-"] {
 	margin: .5em 0;
 	overflow: hidden;
 	background-size: 1em 1em;
-    background: rgb(34, 34, 34);
+    background: black;
 	border: 2px inset #1B1B1B;
-	border-left: 4px solid #F7FE2E;
 }
 
 code[class*="language-"] {
