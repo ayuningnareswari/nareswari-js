@@ -50,7 +50,7 @@ code[class*="language-"] {
 }
 
 .token.comment {
-	color: #e6e601;
+	color: blue;
 }
 
 .token.prolog {
@@ -78,7 +78,7 @@ code[class*="language-"] {
 }
 
 .token.tag {
-	color: #e109df;
+	color: Mediumpurple;
 }
 
 .token.boolean,
@@ -113,11 +113,11 @@ code[class*="language-"] {
 
 .token.entity,
 .token.url {
-	color: #ffc540;
+	color: orange;
 }
 
 .language-css .token.string {
-	color: #ffa2cc;
+	color: hotpink;
 }
 
 .toke.variable {
