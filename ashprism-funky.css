@@ -37,7 +37,7 @@ pre[class*="language-"] {
 
 code[class*="language-"] {
 	font-size:12px;
-	color: #adff31;
+	color: #e6e6fa;
 	overflow-x: hidden;
     margin: 4px 0 20px;
 }
@@ -74,7 +74,7 @@ code[class*="language-"] {
 }
 
 .token.property {
-	color: #fff;
+	color: #adff31;
 }
 
 .token.tag {
@@ -120,7 +120,10 @@ code[class*="language-"] {
 	color: #ffa2cc;
 }
 
-.toke.variable,
+.toke.variable {
+	color: fuchsia;
+}
+
 .token.inserted {
 	color: #ff3985;
 }
