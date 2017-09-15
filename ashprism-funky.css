@@ -78,24 +78,24 @@ code[class*="language-"] {
 }
 
 .token.tag {
-	color: Mediumpurple;
+	color: #0cf;
 }
 
 .token.boolean,
 .token.number {
-	color: #e60101;
+	color: #0cf;
 }
 
 .token.constant {
-	color: #c678dd;
+	color: #0cf;
 }
 
 .token.symbol {
-	color: #014de6;
+	color: #0cf;
 }
 
 .token.selector {
-	color: #05ffff;
+	color: yellow;
 }
 
 .token.attr-name {
@@ -120,7 +120,7 @@ code[class*="language-"] {
 	color: hotpink;
 }
 
-.toke.variable {
+.token.variable {
 	color: fuchsia;
 }
 
@@ -129,10 +129,7 @@ code[class*="language-"] {
 }
 
 .token.atrule,
-.token.attr-value{
-	color: Orangered;
-}
-
+.token.attr-value,
 .token.keyword {
 	color: deeppink;
 }
