@@ -1,0 +1,23 @@
+.PopularPosts .widget-content ul{margin-top:-5px; margin-bottom:-1px; padding:3px; list-style-type:none}
+.PopularPosts .widget-content ul li{position:relative; padding:10px !important}
+.PopularPosts .widget-content ul li:first-child{background:#000; width:auto}
+.PopularPosts .widget-content ul li:first-child:after{content:"01"; background:#f88c00}
+.PopularPosts .widget-content ul li:first-child+li{background:#090808; width:auto}
+.PopularPosts .widget-content ul li:first-child+li:after{content:'02'}
+.PopularPosts .widget-content ul li:first-child+li+li{background:#0F0F0F; width:auto}
+.PopularPosts .widget-content ul li:first-child+li+li:after{content:'03'}
+.PopularPosts .widget-content ul li:first-child+li+li+li{background:#141414; width:auto}
+.PopularPosts .widget-content ul li:first-child+li+li+li:after{content:'04'}
+.PopularPosts .widget-content ul li:first-child+li+li+li+li{background:#171717; width:auto}
+.PopularPosts .widget-content ul li:first-child+li+li+li+li:after{content:'05'}
+.PopularPosts .widget-content ul li:first-child+li+li+li+li+li{background:#191818; width:auto}
+.PopularPosts .widget-content ul li:first-child+li+li+li+li+li:after{content:'06'}
+.PopularPosts .widget-content ul li:first-child+li+li+li+li+li+li{background:#212020; width:auto}
+.PopularPosts .widget-content ul li:first-child+li+li+li+li+li+li:after{content:'07'}
+.PopularPosts .widget-content ul li:first-child+li+li+li+li+li+li+li{background:#262626; width:auto}
+.PopularPosts .widget-content ul li:first-child+li+li+li+li+li+li+li:after{content:'08'}
+.PopularPosts .widget-content ul li:first-child+li+li+li+li+li+li+li+li{background:#2D2D2D; width:auto}
+.PopularPosts .widget-content ul li:first-child+li+li+li+li+li+li+li+li:after{content:'09'}
+.PopularPosts .widget-content ul li:first-child+li+li+li+li+li+li+li+li+li{background:#333; width:auto}
+.PopularPosts .widget-content ul li:first-child+li+li+li+li+li+li+li+li+li:after{content:'10'}
+.PopularPosts .widget-content ul li:first-child:after, .PopularPosts .widget-content ul li:first-child+li:after, .PopularPosts .widget-content ul li:first-child+li+li:after, .PopularPosts .widget-content ul li:first-child+li+li+li:after, .PopularPosts .widget-content ul li:first-child+li+li+li+li:after, .PopularPosts .widget-content ul li:first-child+li+li+li+li+li:after, .PopularPosts .widget-content ul li:first-child+li+li+li+li+li+li:after, .PopularPosts .widget-content ul li:first-child+li+li+li+li+li+li+li:after, .PopularPosts .widget-content ul li:first-child+li+li+li+li+li+li+li+li:after, .PopularPosts .widget-content ul li:first-child+li+li+li+li+li+li+li+li+li:after{position:absolute; top:1px; right:1px; background:#444; padding:6px 5px; width:20px; line-height:1em; text-align:center; color:#eee; font-size:13px !important}
