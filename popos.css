@@ -20,4 +20,12 @@
 .PopularPosts .widget-content ul li:first-child+li+li+li+li+li+li+li+li:after{content:'09'}
 .PopularPosts .widget-content ul li:first-child+li+li+li+li+li+li+li+li+li{background:#333; width:auto}
 .PopularPosts .widget-content ul li:first-child+li+li+li+li+li+li+li+li+li:after{content:'10'}
-.PopularPosts .widget-content ul li:first-child:after, .PopularPosts .widget-content ul li:first-child+li:after, .PopularPosts .widget-content ul li:first-child+li+li:after, .PopularPosts .widget-content ul li:first-child+li+li+li:after, .PopularPosts .widget-content ul li:first-child+li+li+li+li:after, .PopularPosts .widget-content ul li:first-child+li+li+li+li+li:after, .PopularPosts .widget-content ul li:first-child+li+li+li+li+li+li:after, .PopularPosts .widget-content ul li:first-child+li+li+li+li+li+li+li:after, .PopularPosts .widget-content ul li:first-child+li+li+li+li+li+li+li+li:after, .PopularPosts .widget-content ul li:first-child+li+li+li+li+li+li+li+li+li:after{position:absolute; top:1px; right:1px; background:#444; padding:6px 5px; width:20px; line-height:1em; text-align:center; color:#eee; font-size:13px !important}
+.PopularPosts .widget-content ul li:first-child:after, .PopularPosts .widget-content ul li:first-child+li:after,
+.PopularPosts .widget-content ul li:first-child+li+li:after, .PopularPosts .widget-content ul li:first-child+li+li+li:after,
+.PopularPosts .widget-content ul li:first-child+li+li+li+li:after, .PopularPosts .widget-content ul li:first-child+li+li+li+li+li:after,
+.PopularPosts .widget-content ul li:first-child+li+li+li+li+li+li:after, 
+.PopularPosts .widget-content ul li:first-child+li+li+li+li+li+li+li:after, 
+.PopularPosts .widget-content ul li:first-child+li+li+li+li+li+li+li+li:after, 
+.PopularPosts .widget-content ul li:first-child+li+li+li+li+li+li+li+li+li:after{position:absolute; top:1px; right:1px; 
+ background:#444; padding:6px 5px; width:20px; line-height:1em; text-align:center; color:#eee; font-size:13px !important}
+.PopularPosts .widget-content ul li:hover{box-shadow: inset 1000px 0 0px 0 #151515}
