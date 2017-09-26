@@ -1,5 +1,5 @@
 .PopularPosts .widget-content ul{margin-top:-5px; margin-bottom:-1px; padding:3px; list-style-type:none}
-.PopularPosts .widget-content ul li{position:relative; padding:10px !important}
+.PopularPosts .widget-content ul li{position:relative;    box-shadow: inset 9px 0 0px 0 #151515;-webkit-transition: 1.0s;-moz-transition: 1.0s; padding:10px !important}
 .PopularPosts .widget-content ul li:first-child{background:#000; width:auto}
 .PopularPosts .widget-content ul li:first-child:after{content:"01"; background:#f88c00}
 .PopularPosts .widget-content ul li:first-child+li{background:#090808; width:auto}
