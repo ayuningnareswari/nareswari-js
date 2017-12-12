@@ -8,7 +8,7 @@ code[class*="language-"],
 {
 	
         width:auto;
-	font-family: special elite, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-family: special elite;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
@@ -29,14 +29,11 @@ pre[class*="language-"] {
 	padding: .4em .8em;
 	margin: .5em 0;
 	overflow: hidden;
-	background-size: 1em 1em;
-   background-image: url('http://dl8.glitter-graphics.net/pub/2830/2830298bee0lj88rz.jpg');
-background-attachment: fixed;
-background-repeat: repeat;
+   background-image: url('http://dl7.glitter-graphics.net/pub/2595/2595287f4vidskup2.gif')repeat fixed;
 }
 
 code[class*="language-"] {
-	font-size:12px;
+	font-size:13px;
 	color: #0B3861;
 	overflow-x: hidden;
     margin: 4px 0 20px;
@@ -70,11 +67,11 @@ code[class*="language-"] {
 }
 
 .namespace {
-	opacity: .7;
+	opacity: .9;
 }
 
 .token.property {
-	color: #adff31;
+	color: #2E3B0B;
 }
 
 .token.tag {
@@ -95,7 +92,7 @@ code[class*="language-"] {
 }
 
 .token.selector {
-	color: yellow;
+	color: #61380B;
 }
 
 .token.attr-name {
@@ -113,7 +110,7 @@ code[class*="language-"] {
 
 .token.entity,
 .token.url {
-	color: orange;
+	color: #B45F04;
 }
 
 .language-css .token.string {
@@ -121,7 +118,7 @@ code[class*="language-"] {
 }
 
 .token.variable {
-	color: fuchsia;
+	color: #0101DF;
 }
 
 .token.inserted {
