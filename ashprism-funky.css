@@ -29,7 +29,7 @@ pre[class*="language-"] {
 	padding: .4em .8em;
 	margin: .5em 0;
 	overflow: hidden;
-   background-image: url('http://dl7.glitter-graphics.net/pub/2595/2595287f4vidskup2.gif')repeat fixed;
+   background: url('http://dl7.glitter-graphics.net/pub/2595/2595287f4vidskup2.gif')repeat fixed;
 }
 
 code[class*="language-"] {
@@ -63,7 +63,7 @@ code[class*="language-"] {
 }
 
 .token.punctuation {
-	color: #f6fb02;
+	color: #6E6E6E;
 }
 
 .namespace {
