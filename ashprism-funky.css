@@ -5,11 +5,10 @@
  */
 
 code[class*="language-"],
-pre[class*="language-"]
 {
 	
         width:auto;
-	font-family: Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-family: special elite, 'Andale Mono', 'Ubuntu Mono', monospace;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
@@ -31,13 +30,14 @@ pre[class*="language-"] {
 	margin: .5em 0;
 	overflow: hidden;
 	background-size: 1em 1em;
-    background: black;
-	border: 2px inset #1B1B1B;
+   background-image: url('http://dl8.glitter-graphics.net/pub/2830/2830298bee0lj88rz.jpg');
+background-attachment: fixed;
+background-repeat: repeat;
 }
 
 code[class*="language-"] {
 	font-size:12px;
-	color: #e6e6fa;
+	color: #0B3861;
 	overflow-x: hidden;
     margin: 4px 0 20px;
 }
