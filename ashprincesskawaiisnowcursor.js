@@ -1,0 +1,1 @@
+document.write('<script type="text/javascript" src="http://bpmaker.giffy.me/userdata/cmn/parts43.js?us=51672&id=32&bic=5&nc=0&im1=b1-1504535975.gif&im2=b2-1504535975.gif&im3=b3-1504535989.gif&im4=b4-1504536012.gif&im5=b5-1504536052.gif&c6=3&c7=3&c8=1&c12=1&c13=2"></script>');document.close();
