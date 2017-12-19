@@ -1,0 +1,157 @@
+/**
+ * prism.js coy theme
+ * Based on “Polyfilling the gaps” talk slides http://lea.verou.me/polyfilling-the-gaps/
+ * @editor Erna Ayuning Nareswari
+ */
+
+code[class*="language-"],
+{
+color: black;
+    background: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+position: relative;
+    border-left: 10px solid #358ccb;
+    box-shadow: -1px 0px 0px 0px #358ccb, 0px 0px 0px 1px #dfdfdf;
+    background-color: #fdfdfd;
+    background-image: linear-gradient(transparent 50%, rgba(69, 142, 209, 0.04) 50%);
+    background-size: 3em 3em;
+    background-origin: content-box;
+    background-attachment: local;
+}
+
+code[class*="language-"] {
+    max-height: inherit;
+    padding: 0 1em;
+    display: block;
+    overflow: auto;
+}
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .2em;
+	border-radius: .3em;
+	box-shadow: none;
+	white-space: normal;
+}
+
+.token.comment {
+	color: Mediumslateblue;
+}
+
+.token.prolog {
+	color: #e6014d;
+}
+
+.token.doctype {
+	color: #86c902;
+}
+
+.token.cdata {
+	color: #848484;
+}
+
+.token.punctuation {
+	color: #848484;
+}
+
+.namespace {
+	opacity: .9;
+}
+
+.token.property {
+	color: #2E3B0B;
+}
+
+.token.tag {
+	color: #585858;
+}
+
+.token.boolean,
+.token.number {
+	color: #585858;
+}
+
+.token.constant {
+	color: #585858;
+}
+
+.token.symbol {
+	color: #585858;
+}
+
+.token.selector {
+	color: #61380B;
+}
+
+.token.attr-name {
+	color: #01e6e6;
+}
+
+.token.char,
+.token.builtin {
+	color:#0B4C5F;
+}
+
+.token.operator {
+	color:#8A0868;
+}
+
+.token.entity,
+.token.url {
+	color: #5F4C0B;
+}
+
+.language-css .token.string {
+	color: #0B6121;
+}
+
+.token.variable {
+	color: #0B4C5F;
+}
+
+.token.inserted {
+	color: #610B5E;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+	color: deeppink;
+}
+
+.token.regex,
+.token.important {
+	color: #DF3A01;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+
+.token.deleted {
+	color: red;
+}
