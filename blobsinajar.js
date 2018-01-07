@@ -1,5 +1,5 @@
-var colour="#FA58D0"; // what colour are the blobs
-var speed=66; // speed of animation, lower is faster
+var colour="#ECCEF5"; // what colour are the blobs
+var speed=76; // speed of animation, lower is faster
 var blobs=20; // how many blobs are in the jar
 var charc=String.fromCharCode(9679); // a blob - can be changed to charc='hello' or charc='*' for a different effect
 
