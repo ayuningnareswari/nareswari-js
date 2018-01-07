@@ -1,4 +1,3 @@
-// <![CDATA[
 var speed=50; // lower number for faster
 var warp=5; // from 1 to 10
 var stars=200; // number of stars
@@ -118,4 +117,3 @@ function set_width() {
   swide=sw_min;
   shigh=sh_min;
 }
-// ]]>
