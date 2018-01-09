@@ -3,14 +3,12 @@
  * Loosely based on Monokai textmate theme by https://ashprincesskawaii.blogspot.co.id/
  * @author ocodia
  */
-
-@font-face{font-family:Hello Seattle;src:url(http://static.tumblr.com/9wzbixa/tpAmj2jin/hello_seattle.ttf);}
 code[class*="language-"],
 pre[class*="language-"] {
 	color: #ffdff1;
 	background: none;
 	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-	font-family: Hello Seattle, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-family: Special Elite, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
@@ -36,7 +34,8 @@ pre[class*="language-"] {
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-	background: #808080;
+	background: #2E2E2E;-moz-box-shadow: 0 3px 3px 3px rgba(0,0,0,0.4);-webkit-box-shadow: 0 3px 3px 3px rgba(0,0,0,0.4);
+    border-bottom: 1px solid #444;	
 }
 
 /* Inline code */
