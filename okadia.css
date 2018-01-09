@@ -8,7 +8,7 @@ pre[class*="language-"] {
 	color: #ffdff1;
 	background: none;
 	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-	font-family: Special Elite, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
@@ -34,7 +34,9 @@ pre[class*="language-"] {
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-	background: #2E2E2E;-moz-box-shadow: 0 3px 3px 3px rgba(0,0,0,0.4);-webkit-box-shadow: 0 3px 3px 3px rgba(0,0,0,0.4);
+	background: #222;
+    border: 1px solid #111;
+    border-right: 1px solid #444;
     border-bottom: 1px solid #444;	
 }
 
