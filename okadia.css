@@ -1,26 +1,25 @@
 /**
  * okaidia theme for JavaScript, CSS and HTML
- * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * Loosely based on Monokai textmate theme by https://ashprincesskawaii.blogspot.co.id/
  * @author ocodia
  */
 
+@font-face{font-family:Hello Seattle;src:url(http://static.tumblr.com/9wzbixa/tpAmj2jin/hello_seattle.ttf);}
 code[class*="language-"],
 pre[class*="language-"] {
-	color: #f8f8f2;
+	color: #ffdff1;
 	background: none;
 	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-family: Hello Seattle, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
 	word-break: normal;
 	word-wrap: normal;
 	line-height: 1.5;
-
 	-moz-tab-size: 4;
 	-o-tab-size: 4;
 	tab-size: 4;
-
 	-webkit-hyphens: none;
 	-moz-hyphens: none;
 	-ms-hyphens: none;
@@ -37,7 +36,7 @@ pre[class*="language-"] {
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-	background: #272822;
+	background: #808080;
 }
 
 /* Inline code */
@@ -51,11 +50,11 @@ pre[class*="language-"] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-	color: slategray;
+	color: #83fce0;
 }
 
 .token.punctuation {
-	color: #f8f8f2;
+	color: #df80a2;
 }
 
 .namespace {
@@ -67,12 +66,12 @@ pre[class*="language-"] {
 .token.constant,
 .token.symbol,
 .token.deleted {
-	color: #f92672;
+	color: #93d5d1;
 }
 
 .token.boolean,
 .token.number {
-	color: #ae81ff;
+	color: #dbfaf8;
 }
 
 .token.selector,
@@ -81,7 +80,7 @@ pre[class*="language-"] {
 .token.char,
 .token.builtin,
 .token.inserted {
-	color: #a6e22e;
+	color: #b7e8c1;
 }
 
 .token.operator,
@@ -90,7 +89,7 @@ pre[class*="language-"] {
 .language-css .token.string,
 .style .token.string,
 .token.variable {
-	color: #f8f8f2;
+	color: #c298d1;
 }
 
 .token.atrule,
@@ -100,12 +99,12 @@ pre[class*="language-"] {
 }
 
 .token.keyword {
-	color: #66d9ef;
+	color: #ffff00;
 }
 
 .token.regex,
 .token.important {
-	color: #fd971f;
+	color: #ff33cc;
 }
 
 .token.important,
