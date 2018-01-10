@@ -1,5 +1,3 @@
-<script type="text/javascript">
-// <![CDATA[
 var speed=40; // lower number for faster
 var leaves=20; // number of leaves falling at a time
 var untidy=4; // how often do you want the leaves tidied up (high number is less often)
@@ -539,5 +537,3 @@ function mouse(e) {
   }
   deeex=has_focus?Math.floor(-1.5+4*(x-sleft)/swide):0;
 }
-// ]]>
-</script>
