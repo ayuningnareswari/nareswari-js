@@ -35,8 +35,7 @@ pre[class*="language-"] {
 }
 pre[class*="language-"]>code {
 	position: relative;
-	border-left: 10px solid #5dc5c9;
-	box-shadow: -1px 0px 0px 0px #358ccb, 0px 0px 0px 1px #dfdfdf;
+border-left: 10px solid #5dc5c9;
 	background-color: #fdfdfd;
 	background-image: linear-gradient(transparent 50%, rgba(69, 142, 209, 0.04) 50%);
 	background-size: 3em 3em;
@@ -50,7 +49,15 @@ code[class*="language"] {
 	display: block;
 	overflow: auto;
 }
-
+/* Margin bottom to accomodate shadow */
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background-color: #fdfdfd;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-bottom: 1em;
+}
 /* Inline code */
 :not(pre) > code[class*="language-"] {
 	position: relative;
@@ -112,7 +119,7 @@ pre[class*="language-"]:after {
 .token.constant,
 .token.symbol,
 .token.deleted {
-	color: #c92c2c;
+	color: #f5a9bc;
 }
 
 .token.selector,
