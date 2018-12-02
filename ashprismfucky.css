@@ -1,7 +1,7 @@
 code[class*="language-"], 
 pre[class*="language-"]{font-family:monospace,Consolas,Monaco,'Andale Mono','Ubuntu Mono'; text-align:left; white-space:pre; word-spacing:normal; word-break:normal; word-wrap:normal; line-height:1.5; -moz-tab-size:4; -o-tab-size:4; tab-size:4; -webkit-hyphens:none; -moz-hyphens:none; -ms-hyphens:none; hyphens:none}
 
-pre[class*="language-"]{padding:.4em .8em; margin:.5em 0; overflow:auto; background: black; background-size:1em 1em}
+pre[class*="language-"]{padding:.4em .8em; margin:.5em 0; overflow:auto; background: background-color: rgba(162, 102, 56, 0.6); background-size:1em 1em}
 
 code[class*="language-"]{background:black; color:white; box-shadow:-.3em 0 0 .3em black,.3em 0 0 .3em black}
 
